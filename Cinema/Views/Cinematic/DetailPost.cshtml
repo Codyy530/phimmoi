@@ -1,0 +1,99 @@
+﻿
+@{
+    ViewBag.Title = "DetailPost";
+    Layout = "~/Views/Shared/_HomePage.cshtml";
+}
+
+<div class="cinematic-post x" id="post">
+    <div class="row">
+        <div class="col-2"></div>
+        <div class="col-6" style="width: 80%">
+            <div class="mt-4">
+                <h5>BÌNH LUẬN PHIM</h5>
+                <div class="content-title-line mb-5"></div>
+            </div>
+            <h4>@ViewBag.post.PostTitle</h4>
+            <div><i style="color: rgb(255, 225, 55)" class="fa fa-star" aria-hidden="true"></i> 7.9/10</div>
+
+            <p>
+
+                @for (int i = 0; i < ViewBag.postcontent.PostPara1.Length; i++)
+                {
+                    if (ViewBag.postcontent.PostPara1[i] == '/')
+                    {
+                        <br>
+                        continue;
+
+                    }
+                    @ViewBag.postcontent.PostPara1[i]
+                }
+            </p>
+            <img src="~/images/post/review/@ViewBag.postcontent.PostImg1">
+            <p>
+
+                @for (int i = 0; i < ViewBag.postcontent.PostPara2.Length; i++)
+                {
+                    if (ViewBag.postcontent.PostPara2[i] == '/')
+                    {
+                        <br>
+                        continue;
+
+                    }
+                    @ViewBag.postcontent.PostPara2[i]
+                }
+            </p>
+            @if (@ViewBag.postcontent.PostImg2 != null)
+            {
+                <img src="~/images/post/review/@ViewBag.postcontent.PostImg2">
+            }
+
+            <p>
+                @if (ViewBag.postcontent.PostPara3 != null)
+                {
+                    for (int i = 0; i < ViewBag.postcontent.PostPara3.Length; i++)
+                    {
+                        if (ViewBag.postcontent.PostPara3[i] == '/')
+                        {
+                            <br>
+                            continue;
+
+                        }
+                        @ViewBag.postcontent.PostPara3[i]
+                    }
+                }
+            </p>
+        </div>
+        <div class="col-4 mt-4">
+            <h5>PHIM ĐANG CHIẾU</h5>
+            <div class="content-title-line mb-5"></div>
+            <div class="movie-item">
+                <img src="~/images/ads/shangchiads.jpg">
+                <a href="#"></a>
+            </div>
+            <div class="movie-title">
+                <p>SHANG-CHI AND THE LEGEND OF THE TEN RING</p>
+                <p>SHANG-CHI VÀ HUYỀN THOẠI THẬP LUÂN</p>
+            </div>
+            <div class="movie-item">
+                <img src="~/images/ads/aquietplace2ads.jpg">
+                <a href="#"></a>
+            </div>
+            <div class="movie-title">
+                <p>A QUIET PLACE</p>
+                <p>VÙNG ĐẤT CÂM LẶNG</p>
+            </div>
+            <div class="movie-item">
+                <img src="~/images/ads/satnhantrongguongads.jpg">
+                <a href="#"></a>
+            </div>
+            <div class="movie-title">
+                <p>CANDYMAN</p>
+                <p>SÁT NHÂN TRONG GƯƠNG</p>
+            </div>
+        </div>
+    </div>
+</div>
+
+
+
+

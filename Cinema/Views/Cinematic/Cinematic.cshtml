@@ -1,0 +1,244 @@
+﻿
+@{
+    ViewBag.Title = "Cinematic";
+    Layout = "~/Views/Shared/_HomePage.cshtml";
+}
+
+<div class="cinematic-corner d-flex x">
+    <div class="cinematic-corner-1 x" id="corner1">
+        <div class="row">
+            <div class="col-md-6 offset-2">
+                <div class="mt-4">
+                    <h5>BÌNH LUẬN PHIM</h5>
+                    <div class="content-title-line mb-5"></div>
+                </div>
+                <div class="post-item" onclick="redirect('post')">
+                    <a href="#" class="poster-list">
+                        <img src="./assets/images/review/review1.jpg">
+                    </a>
+                    <div class="ml-5">
+                        <div class="filmInfo">
+                            <div class="review-content">
+                                <a href="#"><h4>[Review] Thiên Thần Hộ Mệnh: Victor Vũ Và Nỗ Lực Trẻ Hóa "Vũ Trụ Bùa Ngải"</h4></a>
+                                <div><i style="color: rgb(255, 225, 55)" class="fa fa-star" aria-hidden="true"></i> 7.9/10</div>
+                                <p>Thiên Thần Hộ Mệnh phức tạp, nhiều twist và rõ nhất là trẻ hơn!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-horizontal-line my-5"></div>
+                <div class="post-item" onclick="redirect('post')">
+                    <a href="#" class="poster-list">
+                        <img src="./assets/images/review/review2.jpg">
+                    </a>
+                    <div class="ml-5">
+                        <div class="filmInfo">
+                            <div class="review-content">
+                                <a href="#"><H4>[Review] Trạng Tí: Một Bộ Phim Có Thực Sự Đáng Bị Tẩy Chay?</H4></a>
+                                <div><i style="color: rgb(255, 225, 55)" class="fa fa-star" aria-hidden="true"></i> 3.7/10</div>
+                                <p>Do một số vấn đề ở khâu sản xuất, Trạng Tí phải chịu nhiều chỉ trích từ khi chưa ra rạp chiếu phim.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-horizontal-line my-5"></div>
+                <div class="post-item" onclick="redirect('post')">
+                    <a href="#" class="poster-list">
+                        <img src="./assets/images/review/review3.jpg">
+                    </a>
+                    <div class="ml-5">
+                        <div class="filmInfo">
+                            <div class="review-content">
+                                <a href="#"><H4>[Review] Lật Mặt 5: Chờ Đợi Kỷ Lục Mới Của Lý Hải</H4></a>
+                                <div><i style="color: rgb(255, 225, 55)" class="fa fa-star" aria-hidden="true"></i> 8.4/10</div>
+                                <p>Phần mới nhất của series Lật Mặt đã chính thức ra mắt khán giả trên toàn quốc. Liệu phim có tiếp nối được thành công của những phần trước cũng như đáp ứng được kỳ vọng của khán giả?</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="container-horizontal-line my-5"></div>
+                <div class="post-item pb-5" onclick="redirect('post')">
+                    <a href="#" class="poster-list">
+                        <img src="./assets/images/review/review4.jpg">
+                    </a>
+                    <div class="ml-5">
+                        <div class="filmInfo">
+                            <div class="review-content">
+                                <a href="#"><H4>[Review] Mortal Kombat: Kỹ Xảo Mãn Nhãn Nhưng Liệu Có Xứng Tầm Bom Tấn?</H4></a>
+                                <div><i style="color: rgb(255, 225, 55)" class="fa fa-star" aria-hidden="true"></i> 8.3/10</div>
+                                <p>Ra mắt tại các rạp chiếu phim ở thời điểm hiện tại, Mortal Kombat tuy vẫn còn nhiều khuyết điểm, nhưng vẫn là một tác phẩm giải trí tốt, đủ đem tới trải nghiệm điện ảnh thú vị và đáng để thưởng thức.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-2 mt-4">
+                <h5>PHIM ĐANG CHIẾU</h5>
+                <div class="content-title-line mb-5"></div>
+                <div class="movie-item">
+                    <img src="./assets/images/ads/shangchiads.jpg">
+                    <a href="#"></a>
+                </div>
+                <div class="movie-title">
+                    <p>SHANG-CHI AND THE LEGEND OF THE TEN RING</p>
+                    <p>SHANG-CHI VÀ HUYỀN THOẠI THẬP LUÂN</p>
+                </div>
+                <div class="movie-item">
+                    <img src="./assets/images/ads/aquietplace2ads.jpg">
+                    <a href="#"></a>
+                </div>
+                <div class="movie-title">
+                    <p>A QUIET PLACE</p>
+                    <p>VÙNG ĐẤT CÂM LẶNG</p>
+                </div>
+                <div class="movie-item">
+                    <img src="./assets/images/ads/satnhantrongguongads.jpg">
+                    <a href="#"></a>
+                </div>
+                <div class="movie-title">
+                    <p>CANDYMAN</p>
+                    <p>SÁT NHÂN TRONG GƯƠNG</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="cinematic-corner-2 x row" id="corner2">
+        <div class="col-md-2"></div>
+        <div class="col-md-6 offset-2">
+            <div class="mt-4">
+                <h5>BLOG ĐIỆN ẢNH</h5>
+                <div class="content-title-line mb-5"></div>
+            </div>
+            <div class="post-item" onclick="redirect('post')">
+                <a href="#" class="poster-list">
+                    <img src="./assets/images/review/review3.jpg">
+                </a>
+                <div class="ml-5">
+                    <div class="filmInfo">
+                        <div class="review-content">
+                            <a href="#"><H4>[Review] Lật Mặt 5: Chờ Đợi Kỷ Lục Mới Của Lý Hải</H4></a>
+                            <div><i style="color: rgb(255, 225, 55)" class="fa fa-star" aria-hidden="true"></i> 8.4/10</div>
+                            <p>Phần mới nhất của series Lật Mặt đã chính thức ra mắt khán giả trên toàn quốc. Liệu phim có tiếp nối được thành công của những phần trước cũng như đáp ứng được kỳ vọng của khán giả?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-horizontal-line my-5"></div>
+            <div class="post-item" onclick="redirect('post')">
+                <a href="#" class="poster-list">
+                    <img src="./assets/images/review/review2.jpg">
+                </a>
+                <div class="ml-5">
+                    <div class="filmInfo">
+                        <div class="review-content">
+                            <a href="#"><H4>[Review] Trạng Tí: Một Bộ Phim Có Thực Sự Đáng Bị Tẩy Chay?</H4></a>
+                            <div><i style="color: rgb(255, 225, 55)" class="fa fa-star" aria-hidden="true"></i> 3.7/10</div>
+                            <p>Do một số vấn đề ở khâu sản xuất, Trạng Tí phải chịu nhiều chỉ trích từ khi chưa ra rạp chiếu phim.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-horizontal-line my-5"></div>\
+            <div class="post-item" onclick="redirect('post')">
+                <a href="#" class="poster-list">
+                    <img src="./assets/images/review/review1.jpg">
+                </a>
+                <div class="ml-5">
+                    <div class="filmInfo">
+                        <div class="review-content">
+                            <a href="#"><h4>[Review] Thiên Thần Hộ Mệnh: Victor Vũ Và Nỗ Lực Trẻ Hóa "Vũ Trụ Bùa Ngải"</h4></a>
+                            <div><i style="color: rgb(255, 225, 55)" class="fa fa-star" aria-hidden="true"></i> 7.9/10</div>
+                            <p>Thiên Thần Hộ Mệnh phức tạp, nhiều twist và rõ nhất là trẻ hơn!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-horizontal-line my-5"></div>
+            <div class="post-item pb-5" onclick="redirect('post')">
+                <a href="#" class="poster-list">
+                    <img src="./assets/images/review/review4.jpg">
+                </a>
+                <div class="ml-5">
+                    <div class="filmInfo">
+                        <div class="review-content">
+                            <a href="#"><H4>[Review] Mortal Kombat: Kỹ Xảo Mãn Nhãn Nhưng Liệu Có Xứng Tầm Bom Tấn?</H4></a>
+                            <div><i style="color: rgb(255, 225, 55)" class="fa fa-star" aria-hidden="true"></i> 8.3/10</div>
+                            <p>Ra mắt tại các rạp chiếu phim ở thời điểm hiện tại, Mortal Kombat tuy vẫn còn nhiều khuyết điểm, nhưng vẫn là một tác phẩm giải trí tốt, đủ đem tới trải nghiệm điện ảnh thú vị và đáng để thưởng thức.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-4"></div>
+    </div>
+    <div class="cinematic-corner-3 row x" id="corner3">
+        <div class="col-2"></div>
+        <div class="col-md-8 offset-2">
+            <div class="mt-4">
+                <h5>PHIM HAY THÁNG</h5>
+                <div class="content-title-line mb-5"></div>
+            </div>
+            <div class="post-item" onclick="redirect('post')">
+                <a href="#" class="poster-list">
+                    <img src="./assets/images/review/review4.jpg">
+                </a>
+                <div class="ml-5">
+                    <div class="filmInfo">
+                        <div class="review-content">
+                            <a href="#"><H4>[Review] Mortal Kombat: Kỹ Xảo Mãn Nhãn Nhưng Liệu Có Xứng Tầm Bom Tấn?</H4></a>
+                            <div><i style="color: rgb(255, 225, 55)" class="fa fa-star" aria-hidden="true"></i> 8.3/10</div>
+                            <p>Ra mắt tại các rạp chiếu phim ở thời điểm hiện tại, Mortal Kombat tuy vẫn còn nhiều khuyết điểm, nhưng vẫn là một tác phẩm giải trí tốt, đủ đem tới trải nghiệm điện ảnh thú vị và đáng để thưởng thức.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-horizontal-line my-5"></div>
+            <div class="post-item" onclick="redirect('post')">
+                <a href="#" class="poster-list">
+                    <img src="./assets/images/review/review2.jpg">
+                </a>
+                <div class="ml-5">
+                    <div class="filmInfo">
+                        <div class="review-content">
+                            <a href="#"><H4>[Review] Trạng Tí: Một Bộ Phim Có Thực Sự Đáng Bị Tẩy Chay?</H4></a>
+                            <div><i style="color: rgb(255, 225, 55)" class="fa fa-star" aria-hidden="true"></i> 3.7/10</div>
+                            <p>Do một số vấn đề ở khâu sản xuất, Trạng Tí phải chịu nhiều chỉ trích từ khi chưa ra rạp chiếu phim.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-horizontal-line my-5"></div>
+            <div class="post-item" onclick="redirect('post')">
+                <a href="#" class="poster-list">
+                    <img src="./assets/images/review/review3.jpg">
+                </a>
+                <div class="ml-5">
+                    <div class="filmInfo">
+                        <div class="review-content">
+                            <a href="#"><H4>[Review] Lật Mặt 5: Chờ Đợi Kỷ Lục Mới Của Lý Hải</H4></a>
+                            <div><i style="color: rgb(255, 225, 55)" class="fa fa-star" aria-hidden="true"></i> 8.4/10</div>
+                            <p>Phần mới nhất của series Lật Mặt đã chính thức ra mắt khán giả trên toàn quốc. Liệu phim có tiếp nối được thành công của những phần trước cũng như đáp ứng được kỳ vọng của khán giả?</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="container-horizontal-line my-5"></div>
+            <div class="post-item pb-5" onclick="redirect('post')">
+                <a href="#" class="poster-list">
+                    <img src="./assets/images/review/review1.jpg">
+                </a>
+                <div class="ml-5">
+                    <div class="filmInfo">
+                        <div class="review-content">
+                            <a href="#"><h4>[Review] Thiên Thần Hộ Mệnh: Victor Vũ Và Nỗ Lực Trẻ Hóa "Vũ Trụ Bùa Ngải"</h4></a>
+                            <div><i style="color: rgb(255, 225, 55)" class="fa fa-star" aria-hidden="true"></i> 7.9/10</div>
+                            <p>Thiên Thần Hộ Mệnh phức tạp, nhiều twist và rõ nhất là trẻ hơn!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-4"></div>
+    </div>
+</div>
+

@@ -1,0 +1,157 @@
+﻿@using Cinema.Models;
+@model IEnumerable<Cinema.Models.MOVIE>
+@{
+    ViewBag.Title = "Booking";
+    Layout = "~/Views/Shared/_HomePage.cshtml";
+}
+
+<div class="booking x" id="booking">
+    <div class="booking-container-1">
+        <h3>Đặt vé xem phim</h3>
+        <select class="select-box" onchange="location.href=this.value">
+            @foreach (var item in ViewBag.movie)
+            {
+                if (item.MovieName == ViewBag.check)
+                {
+                    <option selected value="@Url.Action("Booking","Booking", new { name = item.MovieName,location=ViewBag.location })">@item.MovieName</option>
+                    continue;
+                }
+                <option value="@Url.Action("Booking", "Booking", new { name = item.MovieName,location= ViewBag.location })">@item.MovieName</option>
+            }
+
+        </select>
+        <ul class="list-day">
+            <li>
+                <input type="radio" id="day-0" name="amount" checked />
+                <label for="day-0">Today</label>
+            </li>
+            <li>
+                <input type="radio" id="day-1" name="amount" />
+                <label for="day-1">Wed</label>
+            </li>
+            <li>
+                <input type="radio" id="day-2" name="amount" />
+                <label for="day-2">Thu</label>
+            </li>
+            <li>
+                <input type="radio" id="day-3" name="amount" />
+                <label for="day-3">Fri</label>
+            </li>
+            <li>
+                <input type="radio" id="day-4" name="amount" />
+                <label for="day-4">Sat</label>
+            </li>
+            <li>
+                <input type="radio" id="day-5" name="amount" />
+                <label for="day-5">Sun</label>
+            </li>
+            <li>
+                <input type="radio" id="day-6" name="amount" />
+                <label for="day-6">Mon</label>
+            </li>
+            <select class="select-box" onchange="location.href=this.value">
+                if (ViewBag.Location == "all")
+                {
+                <option selected value="@Url.Action("Booking","Booking", new { name = ViewBag.check,location="all" })">All</option>
+
+                }
+                @foreach (var item in ViewBag.LC)
+                {
+
+                    if (item.LocationName == ViewBag.location)
+                    {
+                        <option selected value="@Url.Action("Booking","Booking", new { name = ViewBag.check,location=item.LocationName })">@item.LocationName</option>
+                        continue;
+                    }
+                    <option value="@Url.Action("Booking", "Booking", new { name = ViewBag.check,location= item.LocationName })">@item.LocationName</option>
+                }
+
+            </select>
+            <select class="select-box ml-4">
+                <option>Screening Type</option>
+                <option selected>All</option>
+                <option>2D</option>
+                <option>3D</option>
+                <option>4DX</option>
+            </select>
+        </ul>
+        <h5>Tuesday 28/9/2021</h5>
+        <div class="container-horizontal-line my-3"></div>
+        @foreach (var item in ViewBag.cinema)
+        {
+    
+
+        <h5><input type="hidden" id="CinemaName"  value="@item.CinemaName" />@item.CinemaName</h5>
+        <input type="hidden" id="CinemaAddress" value="@item.CinemaAddress" />
+        <input type="hidden" id="filmname" value="@ViewBag.check" />
+        <h6><i class="fa fa-map-marker text-danger" aria-hidden="true"></i> @item.CinemaAddress</h6>
+
+    
+        <button class="btn btn-dark"><i class="fa fa-hand-o-right" aria-hidden="true"></i> Xem vị trí</button>
+       if (item.type1.Count != 0)
+        {
+            <h5 class="mt-3">2D</h5>
+        }
+        foreach (var item1 in item.type1)
+        {
+
+            <button class="btn btn-base-color btn-lg mr-2 " onclick="showtime1('@item1.showtime','2D')" type="submit">@item1.showtime</button>
+        }
+        if (item.type2.Count != 0)
+        {
+            <h5 class="mt-3">3D</h5>
+        }
+        foreach (var item1 in item.type2)
+        {
+            <button class="btn btn-base-color btn-lg mr-2 " onclick="showtime1('@item1.showtime','3D')" type="submit">@item1.showtime</button>
+        }
+        if (item.type3.Count != 0)
+        {
+            <h5 class="mt-3">4Dx</h5>
+        }
+        foreach (var item1 in item.type3)
+        {
+            <button class="btn btn-base-color btn-lg mr-2" onclick="showtime1('@item1.showtime','4Dx')" type="submit" >@item1.showtime</button>
+        }
+
+        <div class="container-horizontal-line my-3"></div>
+    
+        }
+
+    </div>
+    <div class="modal fade" id="SelectTicket" role="dialog" data-url='@Url.Action("SelectTicket","Ticket")'></div>
+    <script>
+        function showtime1(showtimex, type) {
+              
+                var url = $('#SelectTicket').data('url');
+                $.get(url, function (data) {
+                $('#SelectTicket').html(data);
+                    $('#SelectTicket').modal('show');
+                });
+            var cn = $('#CinemaName').val();
+            var ca = $('#CinemaAddress').val();
+            var fn = $('#filmname').val();
+            
+            $.ajax({
+                url: '@Url.Action("SelectTicket","Ticket")',
+                dataType: "json",
+                type: "POST",
+                contentType: 'application/json; charset=utf-8',
+                data: JSON.stringify({ cinemaname:  cn , cinemaaddress: ca, showtime: showtimex, screentype: type, filmname: fn }),
+                async: true,
+                processData: false,
+                cache: false,
+                success: function (data) {
+                   
+                },
+                error: function (xhr) {
+                    alert('error');
+                }
+            });
+        }
+       
+
+    </script>
+</div>
+
+

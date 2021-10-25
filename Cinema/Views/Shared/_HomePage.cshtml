@@ -1,0 +1,157 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+
+
+    <link rel="stylesheet" href="~/Content/HomePage.css">
+
+</head>
+<body>
+    <div class="page-container">
+        <div class="header col-12 row">
+            <div class="logo col-md-3">
+                <img class="logo" src="~/public/logo4.png" alt="" onclick="redirect('homepage')">
+            </div>
+            <div class="search-box col-md-6 ">
+                <form action="/Search/Search" method="post" class="row">
+                    <div class="col-md-10">
+
+
+                        <input type="text" name="keyword" id="search-box" placeholder="Tìm kiếm ..." />
+
+                    </div>
+                    <div class="col-md-1 ml-0 align-items-center"> <button class="btn btn-block float-right" type="submit"><i class="fas fa-search"></i></button></div>
+                </form>
+            </div>
+            <div class="auth col-md-3 col-sm-6 d-flex justify-content-end align-items-center">
+                <button data-toggle="modal" data-target="#auth-modal">Đăng nhập</button>
+                <span class="mx-2">|</span>
+                <button data-toggle="modal" data-target="#auth-modal">Đăng ký</button>
+            </div>
+        </div>
+        <nav class="navbar navbar-expand-md  sticky-top  justify-content-end">
+
+            <div class="container-fluid justify-content-end float-right">
+
+                <button class="navbar-toggler mr-0 bg-light" type="button" data-toggle="collapse"
+                        data-target="#navbarResponsive1" id="coll">
+                    <div class="navbar-toggler-icon"><i class="fa fa-reorder mt-1"></i></div>
+                </button>
+
+
+                <div class="collapse navbar-collapse" id="navbarResponsive1">
+                    <ul class="navbar navbar-expand-md">
+                        <li class="navbar-item">
+                            <a class="nav-link" href="/HomePage" onclick="redirect('homepage')">TRANG CHỦ</a>
+                        </li>
+                        <li class="navbar-item">
+                            <div class="dropdown">
+                                <a class="btn dropdown-toggle nav-link" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                                    PHIM
+                                </a>
+                                <div class="dropdown-menu float-left" aria-labelledby="dropdownMenuButton" id="drop1">
+                                    <a class="dropdown-item" href="/Movie/MovieCurrent">PHIM ĐANG CHIẾU</a>
+                                    <a class="dropdown-item" href="/Movie/MovieFeature">PHIM SẮP CHIẾU</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Cinema/Cinema?location=none&cinemaname=none&change=none" id="a-rap">RẠP</a>
+                        </li>
+
+                        <li class="nav-item">
+                            <div class="dropdown">
+                                <a class="btn dropdown-toggle nav-link" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                                    GÓC ĐIỆN ẢNH
+                                </a>
+                                <div class="dropdown-menu" aria-labelledby="dropdownMenuButton" id="drop2">
+                                    <a class="dropdown-item " href="/Cinematic/Review">BÌNH LUẬN PHIM</a>
+                                    <a class="dropdown-item " href="/Cinematic/Blog">BLOG ĐIỆN ẢNH</a>
+                                    <a class="dropdown-item " href="/Cinematic/Topfilm">PHIM HAY THÁNG</a>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="/Instruction/Instruction" onclick="redirect('thongtin')">HƯỚNG DẪN</a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </nav>
+        <div>
+            @RenderBody()
+        </div>
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+
+
+
+        <footer>
+            <div class="footer justify-content-center">
+                <div class="footer-container row">
+                    
+                        <div class="col-md-3 col-sm-12">
+                            <div class="footer-title">OREGON VIỆT NAM</div>
+                            <ul class="footer-list">
+                                <li><a href="#" onclick="redirect('thongtin')">GIỚI THIỆU</a></li>
+                                <li><a href="#" onclick="redirect('thongtin')">TUYỂN DỤNG</a></li>
+                                <li><a href="#" onclick="redirect('thongtin')">F.A.Q</a></li>
+                                <li><a href="#" onclick="redirect('thongtin')">ĐIỀU KHOẢN SỬ DỤNG</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-2 col-sm-12">
+                            <div class="footer-title">GÓC ĐIỆN ẢNH</div>
+                            <ul class="footer-list">
+                                <li><a href="#" onclick="redirect('corner1')">BÌNH LUẬN PHIM</a></li>
+                                <li><a href="#" onclick="redirect('corner2')">BLOG ĐIỆN ẢNH</a></li>
+                                <li><a href="#" onclick="redirect('corner3')">PHIM HAY THÁNG</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4 col-sm-12 text-center">
+                            <div class="footer-title">KẾT NỐI VỚI CHÚNG TÔI</div>
+                            <div class="social">
+                                <ul class="social-list justify-content-center">
+                                    <li><a href="#"><i class="fa fa-facebook-square" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-youtube-play" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a></li>
+                                    <li><a href="#"><i class="fa fa-github" aria-hidden="true"></i></a></li>
+                                </ul>
+                                <img src="~/public/bct.png" alt="">
+                            </div>
+
+                        </div>
+                        <div class="contact-us col-md-3 col-sm-12">
+                            <div class="footer-title">LIÊN HỆ</div>
+                            <h5>CÔNG TY CP OREGON ARENA</h5>
+                            <p>Giấy chứng nhận ĐKKD số: 01061210042</p>
+                            <p>Tầng 5, S11, đường Hoàng Quốc Việt, phường Cổ Nhuế 1, quận Bắc Từ Liêm, TP. Hà Nội</p>
+                            <h6>LIÊN HỆ HỢP TÁC KINH DOANH</h6>
+                            <p>salesdepartment@oregon.com</p>
+                        </div>
+                    </div>
+                </div>
+            
+        </footer>
+        
+    </div>
+   
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+    <script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+</body>
+
+</html>

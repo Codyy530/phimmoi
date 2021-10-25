@@ -1,0 +1,112 @@
+﻿
+<div class="modal-dialog modal-xl" role="document">
+    <div class="modal-content">
+
+        
+            <div class="booking-2-header d-flex py-3 col-12">
+                <div class="auth-confirm col-3">
+                    <h5>Xin chào, Hường</h5>
+                    <h6>Không phải bạn? <a href="#" class="text-base-color" style="text-decoration: underline;">Đăng xuất</a></h6>
+                </div>
+                <h4 class="col-7">
+                    <span class="text-select mx-1">ĐẶT VÉ</span>
+                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    <span class="mx-1">CHỌN CHỖ</span>
+                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    <span>DỊCH VỤ</span>
+                    <i class="fa fa-arrow-right" aria-hidden="true"></i>
+                    <span>THANH TOÁN</span>
+                </h4>
+                <div class="booking-clock col-2">
+                    <h6 class="text-bold">Thời gian còn</h6>
+                    <h5><span>10:00</span></h5>
+                </div>
+            </div>
+            <div class="pre-booking">
+                <div class="pre-info d-flex py-4">
+                    <img src="~/images/movie/poster/shangchiposter.jpg" alt="">
+                    <ul>
+                        <h6 class="mb-3"><i class="fa fa-check-circle text-base-color" aria-hidden="true"></i> Bạn đang đặt vé phim: <span>@ViewBag.filmname (@ViewBag.screentype)</span></h6>
+                        <h6 class="mb-3"><i class="fa fa-check-circle text-base-color" aria-hidden="true"></i> Rạp: <span>@ViewBag.CinemaAddress</span></h6>
+                        <h6 class="mb-3"><i class="fa fa-check-circle text-base-color" aria-hidden="true"></i> Ngày chiếu: <span>Thứ 7 25/9/2021</span></h6>
+                        <h6 class="mb-3"><i class="fa fa-check-circle text-base-color" aria-hidden="true"></i> Giờ chiếu: <span>@ViewBag.showtime</span></h6>
+                    </ul>
+                </div>
+            </div>
+            <div class="ticket-select">
+                <h5 class="pt-3">Nhập mã giảm giá (nếu có)</h5>
+                <form class="voucher-form">
+                    <input type="text" placeholder="Nhập mã" />
+                    <input type="submit" value="Thêm mã" class="btn btn-dark" />
+                </form>
+                <div class="d-flex text-base-color my-3">
+                    <h5 class="text-bold" style="flex: 4">Chọn vé</h5>
+                    <h5 class="text-bold" style="flex: 3">Giá vé</h5>
+                    <h5 class="text-bold text-center" style="flex: 1">Số lượng</h5>
+                </div>
+                <div class="container-horizontal-line my-3"></div>
+                <div class="d-flex">
+                    <h5 style="flex: 4">Người lớn</h5>
+                    <h5 style="flex: 3">80.000 VNĐ</h5>
+                    <h5 style="flex: 1" class="text-center">
+                        <button class="btn-ticket-quantity"><i class="fa fa-minus-circle" aria-hidden="true"></i></button>
+                        <span> 0 </span>
+                        <button class="btn-ticket-quantity"><i class="fa fa-plus-circle" aria-hidden="true"></i></button>
+                    </h5>
+                </div>
+                <div class="container-horizontal-line my-3"></div>
+                <div class="d-flex">
+                    <h5 style="flex: 4">Trẻ em</h5>
+                    <h5 style="flex: 3">40.000 VNĐ</h5>
+                    <h5 style="flex: 1" class="text-center">
+                        <button class="btn-ticket-quantity"><i class="fa fa-minus-circle" aria-hidden="true"></i></button>
+                        <span> 0 </span>
+                        <button class="btn-ticket-quantity"><i class="fa fa-plus-circle" aria-hidden="true"></i></button>
+                    </h5>
+                </div>
+                <div class="container-horizontal-line my-3"></div>
+                <div class="d-flex">
+                    <h5 style="flex: 4">Sinh viên</h5>
+                    <h5 style="flex: 3">60.000 VNĐ</h5>
+                    <h5 style="flex: 1" class="text-center">
+                        <button class="btn-ticket-quantity"><i class="fa fa-minus-circle" aria-hidden="true"></i></button>
+                        <span> 0 </span>
+                        <button class="btn-ticket-quantity"><i class="fa fa-plus-circle" aria-hidden="true"></i></button>
+                    </h5>
+                </div>
+                <div class="container-horizontal-line my-3"></div>
+                <div class="d-flex">
+                    <h5 style="flex: 4">Gia đình (x4)</h5>
+                    <h5 style="flex: 3">200.000 VNĐ</h5>
+                    <h5 style="flex: 1" class="text-center">
+                        <button class="btn-ticket-quantity"><i class="fa fa-minus-circle" aria-hidden="true"></i></button>
+                        <span> 0 </span>
+                        <button class="btn-ticket-quantity"><i class="fa fa-plus-circle" aria-hidden="true"></i></button>
+                    </h5>
+                </div>
+                <div class="container-horizontal-line my-3"></div>
+                <div class="d-flex">
+                    <h5 class="text-base-color text-bold" style="flex: 4">Tổng</h5>
+                    <h5 style="flex: 3">0 VNĐ</h5>
+                    <h5 style="flex: 1" class="text-center">
+                        <button class="btn-ticket-quantity" style="visibility: hidden"><i class="fa fa-minus-circle" aria-hidden="true"></i></button>
+                        <span> 0 </span>
+                        <button class="btn-ticket-quantity" style="visibility: hidden"><i class="fa fa-plus-circle" aria-hidden="true"></i></button>
+                    </h5>
+                </div>
+                <div class="container-horizontal-line my-3"></div>
+                <button id="confirm-ticket-quantity" type="button" class="btn btn-lg btn-dark text-bold mb-3 ml-3" data-toggle="modal" data-target="#modal-1" data-dismiss="modal">Xác nhận</button>
+                <button id="confirm-ticket-quantity" type="button" class="btn btn-lg btn-light text-bold mb-3 ml-3" data-dismiss="modal">Hủy</button>
+            
+        </div>
+
+    </div><!-- /.modal-content -->
+</div>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+<link rel="stylesheet" href="https://unpkg.com/flickity@2/dist/flickity.min.css">
+<script src="https://unpkg.com/flickity@2/dist/flickity.pkgd.min.js"></script>
+<link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous" />
+<link rel="stylesheet" href="~/Content/HomePage.css">

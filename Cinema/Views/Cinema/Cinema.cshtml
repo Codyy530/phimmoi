@@ -1,0 +1,158 @@
+﻿
+@{
+    ViewBag.Title = "Cinema";
+    Layout = "~/Views/Shared/_HomePage.cshtml";
+
+
+}
+
+
+<div class="cinema x" id="cinema">
+    <div class="cinema-container">
+        <div class="selec-cinema mt-4">
+            <h5>Chọn rạp: </h5>
+            <select class="select-box" onchange="location.href=this.value">
+                @if(ViewBag.checklocation =="none"){
+                         <option selected value="">Chọn tỉnh/thành phố</option>
+                }
+              @foreach (var item in ViewBag.listlocation)
+                {
+                    if (item.LocationName == ViewBag.checklocation)
+                    {
+                        <option selected value="@Url.Action("Cinema","Cinema", new { location = item.LocationName,cinemaname=ViewBag.checkcinema,change="change"})">@item.LocationName</option>
+                        continue;
+                    }
+                        <option value="@Url.Action("Cinema", "Cinema", new { location = item.LocationName,cinemaname=ViewBag.checkcinema,change="change"})">@item.LocationName</option>
+                 }
+            </select>
+            <select class="select-box ml-2" onchange="location.href=this.value" >
+                @if (ViewBag.checklocation == "none")
+                {
+                    <option selected value="">Chọn rạp</option>
+                }
+                else
+                {
+
+                    foreach (var item in ViewBag.listcinema)
+                    {
+                        if (item.CinemaName == ViewBag.checkcinema)
+                        {
+                            <option selected value="@Url.Action("Cinema", "Cinema", new { location = ViewBag.checklocation, cinemaname = item.CinemaName, change="none" })">@item.CinemaName</option>
+                            continue;
+                        }
+
+                        <option value="@Url.Action("Cinema", "Cinema", new { location = ViewBag.checklocation, cinemaname = item.CinemaName,change="none" })">@item.CinemaName</option>
+                    }
+                    if (ViewBag.checkcinema == "none"|| ViewBag.change!="none")
+                    {
+                        <option selected value="">Chọn rạp</option>
+                    }
+                }
+            </select>
+        </div>
+           @if (ViewBag.checklocation != "none" && ViewBag.checkcinema != "none"&&ViewBag.change!="change") { 
+        <a href="#"><h5 class="content-title">RẠP @ViewBag.checkcinema</h5></a>
+        <div class="content-title-line"></div>
+        <div class="list-cinema">
+            <div class="carousel" data-flickity='{ "groupCells": true }'>
+                @foreach (var item in ViewBag.cinemaimg) {
+                <div class="carousel-cell-cinema" style="background-image: url('/images/cinema_image/@item.ImageLink')"></div>
+                    }
+            </div>
+        </div>
+        <h5><span class="text-secondary">Địa chỉ: </span><i class="fa fa-map-marker text-danger mt-5 mb-3" aria-hidden="true"></i> @ViewBag.cinemax.CinemaAddress</h5>
+        <h5><span class="text-secondary">Số điện thoại: </span><i class="fa fa-phone" aria-hidden="true"></i> @ViewBag.cinemax.PhoneNumber</h5>
+        <button class="btn btn-dark mt-3"><i class="fa fa-hand-o-right" aria-hidden="true"></i> Xem vị trí</button>
+        <a href="#"><h5 class="content-title">LỊCH CHIẾU</h5></a>
+        <div class="content-title-line"></div>
+        <div class="booking">
+            <div class="booking-container">
+                <ul class="list-day">
+                    <li>
+                        <input type="radio" id="day-0x" name="amount" checked />
+                        <label for="day-0x">Today</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="day-1x" name="amount" />
+                        <label for="day-1x">Wed</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="day-2x" name="amount" />
+                        <label for="day-2x">Thu</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="day-3x" name="amount" />
+                        <label for="day-3x">Fri</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="day-4x" name="amount" />
+                        <label for="day-4x">Sat</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="day-5x" name="amount" />
+                        <label for="day-5x">Sun</label>
+                    </li>
+                    <li>
+                        <input type="radio" id="day-6x" name="amount" />
+                        <label for="day-6x">Mon</label>
+                    </li>
+                </ul>
+                <h5>Tuesday 28/9/2021</h5>
+                <div class="container-horizontal-line my-3"></div>
+                <div class="list-film-container">
+                    <div class="list-film">
+                        @foreach (var item in ViewBag.listmovie)
+                        {
+                            <div class="list-films-item row mt-5">
+                                <div class="col-md-2">
+                                    <a href="#" class="poster-list">
+                                        <img src="~/images/movie/poster/@item.PosterLink">
+                                    </a>
+                                </div>
+                                <div class="ml-5 col-md-7 ">
+                                    <a href="#"><h3>@item.MovieName</h3></a>
+                                    <div class="formInfo">
+                                        <li>@item.MovieLength mins</li>
+                                        <li>Dành cho độ tuổi @item.Rate+ </li>
+                                        <li>Thể loại:@item.Category</li>
+                                        <li>Đạo diễn: @item.Director</li>
+                                        <li>Diễn viên: @item.Actor</li>
+                                    </div>
+                                    @if (item.type1.Count != 0)
+                                    {
+                                    <h5 class="mt-3">2D</h5>
+                                    }
+                                    @foreach (var item1 in item.type1)
+                                    {
+                                    <button class="btn btn-base-color btn-lg mr-2" data-toggle="modal" data-target="#myModal">@item1.showtime</button>
+                                    }
+                                    @if (item.type2.Count != 0)
+                                    {
+                                    <h5 class="mt-3">3D</h5>
+                                    }
+                                    @foreach (var item1 in item.type2)
+                                    {
+                                    <button class="btn btn-base-color btn-lg mr-2" data-toggle="modal" data-target="#myModal">@item1.showtime</button>
+                                    }
+                                    @if (item.type3.Count != 0)
+                                    {
+                                    <h5 class="mt-3">4Dx</h5>
+                                    }
+                                    @foreach (var item1 in item.type3)
+                                    {
+                                    <button class="btn btn-base-color btn-lg mr-2" data-toggle="modal" data-target="#myModal">@item1.showtime</button>
+                                    }
+
+                                    <div class="container-horizontal-line my-3"></div>
+                                    
+                                    
+                                    
+                                </div>
+                </div>
+                                        }
+            </div>
+        </div>
+        
+               
+    </div>
+</div>}

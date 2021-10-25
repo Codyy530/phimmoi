@@ -1,0 +1,72 @@
+﻿
+@{
+    ViewBag.Title = "Phim hay tháng";
+    Layout = "~/Views/Shared/_HomePage.cshtml";
+}
+<div class="list-films-current x" id="current">
+    <div class="row">
+        <div class="col-md-2"></div>
+        <div class="list-films col-md-6 ">
+            <div class="list-films-title mt-4 ">
+                <h5>PHIM HAY THÁNG</h5>
+                <div class="content-title-line mb-5"></div>
+            </div>
+            
+                @foreach (var item in ViewBag.current)
+                {
+                    <div class="container-horizontal-line my-5"></div>
+
+                    <div class="list-film-item pb-5 row">
+                        <div class="col-md-2 ">
+                            <a href="/HomePage/Details?id=@item.MovieID" class="poster-list mr-0" onclick="redirect('profile')">
+                                <img src="~/images/movie/poster/@item.PosterLink">
+                            </a>
+                        </div>
+                        <div class="col-md-8  ">
+                            <div class="filmInfo " onclick="redirect('profile')">
+                                <a href="/HomePage/Details?id=@item.MovieID"><h3>@item.MovieName</h3></a>
+                                <li>@item.MovieLength mins</li>
+                                <li>Dành cho độ tuổi @item.Rate+ </li>
+                                <li>Thể loại: @item.Category</li>
+                                <li>Đạo diễn: @item.Director</li>
+                                <li>Diễn viên: @item.Actor</li>
+                            </div>
+                            <a class="btn btn-block my-3 btn-base-color" href="/Booking/Booking?name=@item.MovieName&location=all"><i class="fa fa-film" aria-hidden="true"></i> ĐẶT VÉ</a>
+                        </div>
+                    </div>
+
+                }
+            </div>
+            <div class="col-2 mt-4">
+                <h5>PHIM ĐANG CHIẾU</h5>
+                <div class="content-title-line mb-5"></div>
+                <div class="movie-item">
+                    <img src="~/images/ads/shangchiads.jpg">
+                    <a href="#"></a>
+                </div>
+                <div class="movie-title">
+                    <p>SHANG-CHI AND THE LEGEND OF THE TEN RING</p>
+                    <p>SHANG-CHI VÀ HUYỀN THOẠI THẬP LUÂN</p>
+                </div>
+                <div class="movie-item">
+                    <img src="~/images/ads/aquietplace2ads.jpg">
+                    <a href="#"></a>
+                </div>
+                <div class="movie-title">
+                    <p>A QUIET PLACE</p>
+                    <p>VÙNG ĐẤT CÂM LẶNG</p>
+                </div>
+                <div class="movie-item">
+                    <img src="~/images/ads/satnhantrongguongads.jpg">
+                    <a href="#"></a>
+                </div>
+                <div class="movie-title">
+                    <p>CANDYMAN</p>
+                    <p>SÁT NHÂN TRONG GƯƠNG</p>
+                </div>
+            </div>
+            
+        
+    
+        </div>
+</div>

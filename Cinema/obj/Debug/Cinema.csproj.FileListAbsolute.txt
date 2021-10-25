@@ -1,0 +1,249 @@
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\Cinema.dll.config
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\Cinema.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\Cinema.pdb
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\csc.exe
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\csc.exe.config
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\csc.rsp
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\csi.exe
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\csi.exe.config
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\csi.rsp
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\Microsoft.Managed.Core.targets
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\System.AppContext.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\System.Console.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\System.Globalization.Calendars.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\System.IO.Compression.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\System.IO.Compression.ZipFile.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\System.Net.Http.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\System.Net.Sockets.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\System.Threading.Tasks.Extensions.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\System.ValueTuple.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\System.Xml.XPath.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\vbc.exe
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\vbc.exe.config
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\vbc.rsp
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\VBCSCompiler.exe
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\Antlr3.Runtime.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\Microsoft.Web.Infrastructure.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\Newtonsoft.Json.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\System.Web.Helpers.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\System.Web.Mvc.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\System.Web.Optimization.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\System.Web.Razor.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\System.Web.WebPages.Deployment.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\System.Web.WebPages.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\System.Web.WebPages.Razor.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\WebGrease.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\System.Web.Helpers.xml
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\System.Web.Mvc.xml
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\System.Web.Optimization.xml
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\System.Web.Razor.xml
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\System.Web.WebPages.xml
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\System.Web.WebPages.Deployment.xml
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\System.Web.WebPages.Razor.xml
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\Newtonsoft.Json.xml
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\Antlr3.Runtime.pdb
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\obj\Debug\Cinema.csproj.CoreCompileInputs.cache
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\obj\Debug\Cinema.csproj.CopyComplete
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\obj\Debug\Cinema.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\obj\Debug\Cinema.pdb
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\EntityFramework.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\EntityFramework.SqlServer.dll
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\EntityFramework.xml
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\bin\EntityFramework.SqlServer.xml
+C:\Users\LENOVO\Desktop\Nhóm 3\Cinema\Cinema\obj\Debug\Cinema.csproj.AssemblyReference.cache
+I:\Data\Cinema\Cinema\bin\Cinema.dll.config
+I:\Data\Cinema\Cinema\bin\Cinema.dll
+I:\Data\Cinema\Cinema\bin\Cinema.pdb
+I:\Data\Cinema\Cinema\bin\roslyn\csc.exe
+I:\Data\Cinema\Cinema\bin\roslyn\csc.exe.config
+I:\Data\Cinema\Cinema\bin\roslyn\csc.rsp
+I:\Data\Cinema\Cinema\bin\roslyn\csi.exe
+I:\Data\Cinema\Cinema\bin\roslyn\csi.exe.config
+I:\Data\Cinema\Cinema\bin\roslyn\csi.rsp
+I:\Data\Cinema\Cinema\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+I:\Data\Cinema\Cinema\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+I:\Data\Cinema\Cinema\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+I:\Data\Cinema\Cinema\bin\roslyn\Microsoft.CodeAnalysis.dll
+I:\Data\Cinema\Cinema\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+I:\Data\Cinema\Cinema\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+I:\Data\Cinema\Cinema\bin\roslyn\Microsoft.CSharp.Core.targets
+I:\Data\Cinema\Cinema\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+I:\Data\Cinema\Cinema\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+I:\Data\Cinema\Cinema\bin\roslyn\Microsoft.Managed.Core.targets
+I:\Data\Cinema\Cinema\bin\roslyn\Microsoft.VisualBasic.Core.targets
+I:\Data\Cinema\Cinema\bin\roslyn\Microsoft.Win32.Primitives.dll
+I:\Data\Cinema\Cinema\bin\roslyn\System.AppContext.dll
+I:\Data\Cinema\Cinema\bin\roslyn\System.Collections.Immutable.dll
+I:\Data\Cinema\Cinema\bin\roslyn\System.Console.dll
+I:\Data\Cinema\Cinema\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+I:\Data\Cinema\Cinema\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+I:\Data\Cinema\Cinema\bin\roslyn\System.Diagnostics.StackTrace.dll
+I:\Data\Cinema\Cinema\bin\roslyn\System.Globalization.Calendars.dll
+I:\Data\Cinema\Cinema\bin\roslyn\System.IO.Compression.dll
+I:\Data\Cinema\Cinema\bin\roslyn\System.IO.Compression.ZipFile.dll
+I:\Data\Cinema\Cinema\bin\roslyn\System.IO.FileSystem.dll
+I:\Data\Cinema\Cinema\bin\roslyn\System.IO.FileSystem.Primitives.dll
+I:\Data\Cinema\Cinema\bin\roslyn\System.Net.Http.dll
+I:\Data\Cinema\Cinema\bin\roslyn\System.Net.Sockets.dll
+I:\Data\Cinema\Cinema\bin\roslyn\System.Reflection.Metadata.dll
+I:\Data\Cinema\Cinema\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+I:\Data\Cinema\Cinema\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+I:\Data\Cinema\Cinema\bin\roslyn\System.Security.Cryptography.Encoding.dll
+I:\Data\Cinema\Cinema\bin\roslyn\System.Security.Cryptography.Primitives.dll
+I:\Data\Cinema\Cinema\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+I:\Data\Cinema\Cinema\bin\roslyn\System.Text.Encoding.CodePages.dll
+I:\Data\Cinema\Cinema\bin\roslyn\System.Threading.Tasks.Extensions.dll
+I:\Data\Cinema\Cinema\bin\roslyn\System.ValueTuple.dll
+I:\Data\Cinema\Cinema\bin\roslyn\System.Xml.ReaderWriter.dll
+I:\Data\Cinema\Cinema\bin\roslyn\System.Xml.XmlDocument.dll
+I:\Data\Cinema\Cinema\bin\roslyn\System.Xml.XPath.dll
+I:\Data\Cinema\Cinema\bin\roslyn\System.Xml.XPath.XDocument.dll
+I:\Data\Cinema\Cinema\bin\roslyn\vbc.exe
+I:\Data\Cinema\Cinema\bin\roslyn\vbc.exe.config
+I:\Data\Cinema\Cinema\bin\roslyn\vbc.rsp
+I:\Data\Cinema\Cinema\bin\roslyn\VBCSCompiler.exe
+I:\Data\Cinema\Cinema\bin\roslyn\VBCSCompiler.exe.config
+I:\Data\Cinema\Cinema\bin\Antlr3.Runtime.dll
+I:\Data\Cinema\Cinema\bin\EntityFramework.dll
+I:\Data\Cinema\Cinema\bin\EntityFramework.SqlServer.dll
+I:\Data\Cinema\Cinema\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+I:\Data\Cinema\Cinema\bin\Microsoft.Web.Infrastructure.dll
+I:\Data\Cinema\Cinema\bin\Newtonsoft.Json.dll
+I:\Data\Cinema\Cinema\bin\System.Web.Helpers.dll
+I:\Data\Cinema\Cinema\bin\System.Web.Mvc.dll
+I:\Data\Cinema\Cinema\bin\System.Web.Optimization.dll
+I:\Data\Cinema\Cinema\bin\System.Web.Razor.dll
+I:\Data\Cinema\Cinema\bin\System.Web.WebPages.Deployment.dll
+I:\Data\Cinema\Cinema\bin\System.Web.WebPages.dll
+I:\Data\Cinema\Cinema\bin\System.Web.WebPages.Razor.dll
+I:\Data\Cinema\Cinema\bin\WebGrease.dll
+I:\Data\Cinema\Cinema\bin\EntityFramework.xml
+I:\Data\Cinema\Cinema\bin\EntityFramework.SqlServer.xml
+I:\Data\Cinema\Cinema\bin\System.Web.Helpers.xml
+I:\Data\Cinema\Cinema\bin\System.Web.Mvc.xml
+I:\Data\Cinema\Cinema\bin\System.Web.Optimization.xml
+I:\Data\Cinema\Cinema\bin\System.Web.Razor.xml
+I:\Data\Cinema\Cinema\bin\System.Web.WebPages.xml
+I:\Data\Cinema\Cinema\bin\System.Web.WebPages.Deployment.xml
+I:\Data\Cinema\Cinema\bin\System.Web.WebPages.Razor.xml
+I:\Data\Cinema\Cinema\bin\Newtonsoft.Json.xml
+I:\Data\Cinema\Cinema\bin\Antlr3.Runtime.pdb
+I:\Data\Cinema\Cinema\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+I:\Data\Cinema\Cinema\obj\Debug\Cinema.csprojAssemblyReference.cache
+I:\Data\Cinema\Cinema\obj\Debug\Cinema.csproj.CoreCompileInputs.cache
+I:\Data\Cinema\Cinema\obj\Debug\Cinema.csproj.CopyComplete
+I:\Data\Cinema\Cinema\obj\Debug\Cinema.dll
+I:\Data\Cinema\Cinema\obj\Debug\Cinema.pdb
+E:\Codyy\Cinema\Cinema\Cinema\bin\Cinema.dll.config
+E:\Codyy\Cinema\Cinema\Cinema\bin\Cinema.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\Cinema.pdb
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\csc.exe
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\csc.exe.config
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\csc.rsp
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\csi.exe
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\csi.exe.config
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\csi.rsp
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\Microsoft.CodeAnalysis.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\Microsoft.CSharp.Core.targets
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\Microsoft.Managed.Core.targets
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\Microsoft.VisualBasic.Core.targets
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\Microsoft.Win32.Primitives.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\System.AppContext.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\System.Collections.Immutable.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\System.Console.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\System.Diagnostics.DiagnosticSource.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\System.Diagnostics.StackTrace.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\System.Globalization.Calendars.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\System.IO.Compression.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\System.IO.Compression.ZipFile.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\System.IO.FileSystem.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\System.IO.FileSystem.Primitives.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\System.Net.Http.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\System.Net.Sockets.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\System.Reflection.Metadata.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\System.Runtime.InteropServices.RuntimeInformation.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\System.Security.Cryptography.Encoding.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\System.Security.Cryptography.Primitives.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\System.Text.Encoding.CodePages.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\System.Threading.Tasks.Extensions.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\System.ValueTuple.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\System.Xml.ReaderWriter.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\System.Xml.XmlDocument.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\System.Xml.XPath.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\System.Xml.XPath.XDocument.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\vbc.exe
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\vbc.exe.config
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\vbc.rsp
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\VBCSCompiler.exe
+E:\Codyy\Cinema\Cinema\Cinema\bin\roslyn\VBCSCompiler.exe.config
+E:\Codyy\Cinema\Cinema\Cinema\bin\Antlr3.Runtime.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\EntityFramework.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\EntityFramework.SqlServer.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\Microsoft.Web.Infrastructure.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\Newtonsoft.Json.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\System.Web.Helpers.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\System.Web.Mvc.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\System.Web.Optimization.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\System.Web.Razor.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\System.Web.WebPages.Deployment.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\System.Web.WebPages.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\System.Web.WebPages.Razor.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\WebGrease.dll
+E:\Codyy\Cinema\Cinema\Cinema\bin\EntityFramework.xml
+E:\Codyy\Cinema\Cinema\Cinema\bin\EntityFramework.SqlServer.xml
+E:\Codyy\Cinema\Cinema\Cinema\bin\System.Web.Helpers.xml
+E:\Codyy\Cinema\Cinema\Cinema\bin\System.Web.Mvc.xml
+E:\Codyy\Cinema\Cinema\Cinema\bin\System.Web.Optimization.xml
+E:\Codyy\Cinema\Cinema\Cinema\bin\System.Web.Razor.xml
+E:\Codyy\Cinema\Cinema\Cinema\bin\System.Web.WebPages.xml
+E:\Codyy\Cinema\Cinema\Cinema\bin\System.Web.WebPages.Deployment.xml
+E:\Codyy\Cinema\Cinema\Cinema\bin\System.Web.WebPages.Razor.xml
+E:\Codyy\Cinema\Cinema\Cinema\bin\Newtonsoft.Json.xml
+E:\Codyy\Cinema\Cinema\Cinema\bin\Antlr3.Runtime.pdb
+E:\Codyy\Cinema\Cinema\Cinema\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+E:\Codyy\Cinema\Cinema\Cinema\obj\Debug\Cinema.csprojAssemblyReference.cache
+E:\Codyy\Cinema\Cinema\Cinema\obj\Debug\Cinema.csproj.CoreCompileInputs.cache
+E:\Codyy\Cinema\Cinema\Cinema\obj\Debug\Cinema.csproj.CopyComplete
+E:\Codyy\Cinema\Cinema\Cinema\obj\Debug\Cinema.dll
+E:\Codyy\Cinema\Cinema\Cinema\obj\Debug\Cinema.pdb
