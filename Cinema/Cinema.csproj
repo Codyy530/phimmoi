@@ -393,6 +393,7 @@
     <Content Include="Views\Instruction\Instruction.cshtml" />
     <Content Include="Views\Cinematic\DetailPost.cshtml" />
     <Content Include="Views\Ticket\SelectTicket.cshtml" />
+    <Content Include="Views\HomePage\View.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
